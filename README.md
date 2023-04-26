@@ -2,6 +2,15 @@
 
 This repository contains a Flask web application that predicts the emotion of dogs from input images using a pre-trained Inception v3 deep learning model. The model has been trained on a dataset of labeled dog images to classify them into different emotion categories, such as happy, sad, angry, and so on.
 
+##walkthrough 
+This repository contains a Flask web application that predicts the emotion of dogs from input images using two Inception v3 deep learning models. The models, saved as model1.h5 and model2.h5, were developed on Google Colab in the file model_buil.ipynb, using a dataset of labeled dog images to classify them into different emotion categories, such as happy, sad, angry, and so on.The datset can be downloaded from 
+The dog image dataset used for training the models is available [here](https://www.kaggle.com/datasets/devzohaib/dog-emotions-prediction).
+
+
+
+
+The templates folder contains two HTML templates used in the Flask app: index.html and result.html. The index.html template displays a simple form that allows the user to upload an image of a dog. The result.html template displays the predicted emotion of the dog based on the input image
+
 
 ## Flask Framework
 Flask is a micro web framework written in Python that allows you to build web applications quickly and easily. It is known for its simplicity, flexibility, and minimalism, making it an ideal choice for small to medium-sized projects. Flask provides you with the basic tools and features you need to get started, such as routing, templates, and request handling, while also allowing you to customize and extend its functionality with plugins and extensions.
