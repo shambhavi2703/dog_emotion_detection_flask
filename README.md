@@ -1,13 +1,10 @@
 # dog_emotion_detection_flask
 
-This repository contains a Flask web application that predicts the emotion of dogs from input images using a pre-trained Inception v3 deep learning model. The model has been trained on a dataset of labeled dog images to classify them into different emotion categories, such as happy, sad, angry, and so on.
+This repository contains a Flask web application that predicts the emotion of dogs from input images  The model has been trained on a dataset of labeled dog images to classify them into different emotion categories, such as happy, sad, angry, and relaxed.
 
-##walkthrough 
-This repository contains a Flask web application that predicts the emotion of dogs from input images using two Inception v3 deep learning models. The models, saved as model1.h5 and model2.h5, were developed on Google Colab in the file model_buil.ipynb, using a dataset of labeled dog images to classify them into different emotion categories, such as happy, sad, angry, and so on.The datset can be downloaded from 
+## Walkthrough 
+This repository contains a Flask web application that predicts the emotion of dogs from input images using two Inception v3 deep learning models. The models, saved as model1.h5 and model2.h5, were developed on Google Colab in the file model_buil.ipynb. 
 The dog image dataset used for training the models is available [here](https://www.kaggle.com/datasets/devzohaib/dog-emotions-prediction).
-
-
-
 
 The templates folder contains two HTML templates used in the Flask app: index.html and result.html. The index.html template displays a simple form that allows the user to upload an image of a dog. The result.html template displays the predicted emotion of the dog based on the input image
 
