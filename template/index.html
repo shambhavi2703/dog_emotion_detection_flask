@@ -1,0 +1,58 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Emotion Classification</title>
+        <style>
+            body {
+                background-image: url('https://image.slidesdocs.com/responsive-images/background/yellow-white-web-textile-dog-diet-cartoon-abstract-powerpoint-background_4577e859b6__960_540.jpg');
+                background-size: cover;
+                background-repeat: repeat;
+                background-position: center;
+            }
+            h1 {
+                color: rgb(10, 2, 94);
+                text-align: center;
+                font-size: 52px;
+                font-weight: bold;
+                text-shadow: 2px 2px 4px #4e91ef;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2em;
+            }
+            input[type="file"] {
+                margin-bottom: 1em;
+            }
+            input[type="submit"] {
+                background-color: #a533ec;
+                color: #fff;
+                padding: 0.5em 1em;
+                border: none;
+                border-radius: 0.3em;
+                font-size: 1.2em;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: #7c1ab5;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Upload an image to classify the emotion of the dog</h1>
+        <form action="/predict" method="POST" enctype="multipart/form-data">
+            <input type="file" name="image">
+            <br><br>
+            <input type="submit" value="Predict">
+        </form>
+        <div style="text-align:center;">
+            <img src="https://cdn.pixabay.com/photo/2020/02/12/05/16/dog-cartoon-4841703__340.jpg" class="w3-border w3-padding" alt="shambhavi test img" style="width:15%">
+          </div>
+          
+    </body>
+</html>
+
+
